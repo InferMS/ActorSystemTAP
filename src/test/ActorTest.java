@@ -37,7 +37,7 @@ public class ActorTest {
         head.send(message);
         System.out.println("-> TESTING RING...");
         Thread.sleep(1000);
-        Assert.assertTrue(message.getLaps()==-1);
+        Assert.assertEquals(-1, message.getLaps());
     }
 
     @Test
@@ -49,6 +49,6 @@ public class ActorTest {
         pongActor.send(message);
         System.out.println("-> TESTING PING PONG...");
         Thread.sleep(1000);
-        Assert.assertTrue(message.getBounces()==-1);
+        Assert.assertEquals(-1, message.getBounces());
     }
 }
