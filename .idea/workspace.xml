@@ -1,16 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="61964c28-09cd-4cfa-abf4-737199b4a38e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TAPmodel.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/actors/ActorContext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/actors/Actor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/actors/Actor.java" afterDir="false" />
+    <list default="true" id="61964c28-09cd-4cfa-abf4-737199b4a38e" name="Changes" comment="Inicio traspaso">
+      <change afterPath="$PROJECT_DIR$/src/actors/Actor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/actors/ActorInt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/actors/ActorProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/actors/ActorProxyAnswerMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/actors/HelloWorldActor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/actors/InsultActor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/actors/PingPongActor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/actors/RingActor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/TestDecorators.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/TestDynamic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/TestHelloWorld.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/TestMonitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/TestMulti.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/TestPingPong.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/TestRing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controllers/ActorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controllers/ContextController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controllers/DecoratorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controllers/MessageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controllers/MonitorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/decorators/EncryptionDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/decorators/FirewallDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/decorators/LambdaFirewallDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dynamicproxy/DynamicProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dynamicproxy/InsultInt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dynamicproxy/InsultService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/extra/AddClosureMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/extra/AddInsultMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/extra/EncryptedMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/extra/GetAllInsultsMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/extra/GetInsultMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/extra/LinkMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/extra/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/extra/PingPongMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/extra/QuitMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/extra/RingMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/extra/TextMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/observer/ActorEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/observer/ActorListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/observer/MonitorService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/observer/TrafficObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/server/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/ActorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/ActorTestRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/ActorTestSuite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TAPmodel.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TAPmodel.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/actors/ActorContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/actors/ActorContext.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +62,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -27,17 +70,34 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2KQP6xFNMngNExe9Ica6XqPsMVQ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/edgar/Downloads/xmlrpc-1.1/xmlrpc-1.1.jar",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -49,11 +109,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1673903662324</updated>
-      <workItem from="1673903663586" duration="336000" />
+      <workItem from="1673903663586" duration="4295000" />
     </task>
+    <task id="LOCAL-00001" summary="Inicio traspaso">
+      <created>1673904032069</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1673904032069</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Inicio traspaso" />
+    <option name="LAST_COMMIT_MESSAGE" value="Inicio traspaso" />
   </component>
 </project>
